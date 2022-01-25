@@ -91,3 +91,31 @@
         width: 100%;
     }
 }
+
+.faq-card {
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #061441;
+    border: 1px solid #061441 ;
+
+    /* border: none;
+       border-radius: 6px;
+    */
+    /* background-color: #17a2b8;
+       background-color: #184aab;
+    */
+
+    /* Slow Shadow Effect*/
+    transition: box-shadow 0.5s;
+
+  }
+  .faq-card hr {
+    border-width: 0.2rem;
+    border-color: #061441;
+  }
+
+  .faq-card:hover {
+    box-shadow: 5px 0px 20px rgba(0,0,0, .8);
+    /* box-shadow:4px 4px 7px rgb(32, 32, 32);  */
+
+  }
